@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1652732978340632}
+  m_IsPrefabParent: 1
+--- !u!1 &1652732978340632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4802321408434910}
+  - component: {fileID: 114559099118162610}
+  - component: {fileID: 114316483128074894}
+  - component: {fileID: 114649347571114378}
+  m_Layer: 0
+  m_Name: Singleton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4802321408434910
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1652732978340632}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114316483128074894
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1652732978340632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf09c4301ca766439f129afbc1f0d37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SenceTexturePath:
+  - file:///D:/Downloads/fffsaf/Data/ImageFile/lobbyVr.png
+  - file:///D:/Downloads/fffsaf/Data/ImageFile/VrResto2.jpg
+  - file:///D:/Downloads/fffsaf/Data/ImageFile/vrResto3.jpg
+  ScenesData:
+  - SceneName: lobbyVr.png
+    HotspotData:
+    - hotspotName: NavigationObjtest 1(Clone)
+      Position: {x: 41.706955, y: -1.1662158, z: 97}
+      NagivateToScene: VrResto2.jpg
+  - SceneName: VrResto2.jpg
+    HotspotData:
+    - hotspotName: NavigationObjtest 1(Clone)
+      Position: {x: -61.05079, y: -1.9227929, z: 97}
+      NagivateToScene: vrResto3.jpg
+  - SceneName: vrResto3.jpg
+    HotspotData:
+    - hotspotName: NavigationObjtest 1(Clone)
+      Position: {x: 39.265354, y: 11.174284, z: 97}
+      NagivateToScene: lobbyVr.png
+  Scenetexture:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  ScenePrafab: {fileID: 1514295142454742, guid: a6e694cfc9efa9a44bc782549d777fc2,
+    type: 2}
+  HotspotPrafab: {fileID: 1797013806519112, guid: f2c38b22a92be584085e6268185fec07,
+    type: 2}
+  NavigationCanvasPrv: {fileID: 0}
+  Camera: {fileID: 0}
+  Dome: {fileID: 0}
+  MobileApp: 0
+--- !u!114 &114559099118162610
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1652732978340632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504a404a7cd7d6f4590107d700c6d410, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectData: {fileID: 0}
+  addproject: {fileID: 0}
+  openFileImages: {fileID: 0}
+  secoundPanel: {fileID: 0}
+  FilePath: D:/Downloads/fffsaf/ProjectData.json
+--- !u!114 &114649347571114378
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1652732978340632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2437c0e5e46748949b440abcc325f7db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: https://api.backendless.com/DA780518-793A-F5E7-FF82-7594786D4400/7208BAA2-9087-AD43-FF29-FC433ABF6600/files/data
+  LocalFilepath: []
+  UploadFilepath: []
+  PreSaveLoad: {fileID: 0}
