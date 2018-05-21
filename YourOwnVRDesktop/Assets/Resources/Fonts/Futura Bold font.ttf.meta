@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 81ac4ea4a9b2cdd4db23fe7d2ce4b2e1
+timeCreated: 1507098138
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Futura BdCn BT
+  fontNames:
+  - Futura BdCn BT
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
